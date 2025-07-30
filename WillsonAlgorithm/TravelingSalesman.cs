@@ -1,5 +1,10 @@
 ﻿namespace WillsonAlgorithm
 {
+    /// <summary>
+    /// Brute-force solver for the Traveling Salesman Problem.
+    /// Examines every possible path and therefore has factorial complexity.
+    /// Suitable only for very small numbers of cities.
+    /// </summary>
     public class TravelingSalesman
     {
         private readonly int[,] _distanceMatrix;
